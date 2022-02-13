@@ -1,2 +1,2 @@
 # Learngit
-learn git
+learn git is my new repostriy
