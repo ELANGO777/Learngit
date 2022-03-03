@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+
+    <parameter name="browser" value="chrome"></parameter>
+    <parameter name="url" value="https://www.amazon.in/"></parameter>
+    <test verbose="2" preserve-order="true"  name="OrangeHRM" >
+        <classes>
+            <class name="Test.AmazonProductSearch"></class>
+            <class name="Reports.Reporting"></class>
+        </classes>
+    </test>
+
+</suite>
