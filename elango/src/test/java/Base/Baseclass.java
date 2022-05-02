@@ -17,7 +17,7 @@ public class Baseclass {
 	        wait =new WebDriverWait(driver, Duration.ofSeconds(5));
 		    int ee;
 		    charg elango1;
-		    double k;
+		    float f:
 	        int elango;
 	    }
 
