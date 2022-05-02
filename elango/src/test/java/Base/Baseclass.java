@@ -12,9 +12,10 @@ public class Baseclass {
 	 private WebDriver driver;
 	    private WebDriverWait wait;
 
-	    public Baseclass(WebDriver driver) {
+	    public Baseclass(WebDriver driver) throws InterruptedException {
 	        this.driver = driver;
 	        wait =new WebDriverWait(driver, Duration.ofSeconds(5));
+	        Thread.sleep(2000);
 	    }
 
 	    protected WebElement getElement(WebElement element){

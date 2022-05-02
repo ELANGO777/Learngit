@@ -14,10 +14,7 @@ public class HomePage extends Baseclass {
     private WebElement txtWelcomeMessage;
 
 
-    public HomePage(WebDriver driver){
-        super(driver);
-        PageFactory.initElements(driver,this);
-    }
+ 
 
     public boolean isUserLoggedIn(){
         return isDisplayed(txtWelcomeMessage);
