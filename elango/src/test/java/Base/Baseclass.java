@@ -16,7 +16,7 @@ public class Baseclass {
 	        this.driver = driver;
 	        wait =new WebDriverWait(driver, Duration.ofSeconds(5));
 		  
-	        int elango;
+	        int elango222222;
 	    }
 
 	    protected WebElement getElement(WebElement element){
