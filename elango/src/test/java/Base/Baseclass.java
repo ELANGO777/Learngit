@@ -15,8 +15,8 @@ public class Baseclass {
 	    public Baseclass(WebDriver driver) throws InterruptedException {
 	        this.driver = driver;
 	        wait =new WebDriverWait(driver, Duration.ofSeconds(5));
-		    char ee;
-		    int elango1;
+		    int ee;
+		    charg elango1;
 	        int elango;
 	    }
 
