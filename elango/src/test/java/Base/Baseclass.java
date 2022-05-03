@@ -15,8 +15,13 @@ public class Baseclass {
 	    public Baseclass(WebDriver driver) throws InterruptedException {
 	        this.driver = driver;
 	        wait =new WebDriverWait(driver, Duration.ofSeconds(5));
+
 	        int data = 3;
 	        int eyal;
+
+	        getElement(element).click();
+	        return wait.until(ExpectedConditions.visibilityOf(element));
+
 	    }
 
 	    protected WebElement getElement(WebElement element){
