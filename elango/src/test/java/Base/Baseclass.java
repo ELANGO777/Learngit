@@ -16,6 +16,7 @@ public class Baseclass {
 	        this.driver = driver;
 	        wait =new WebDriverWait(driver, Duration.ofSeconds(5));
 	        getElement(element).click();
+	        return wait.until(ExpectedConditions.visibilityOf(element));
 	        int elango222222;
 	    }
 
