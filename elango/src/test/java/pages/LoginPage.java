@@ -27,7 +27,8 @@ public class LoginPage extends Baseclass {
 
     public LoginPage(WebDriver driver){
         super(driver);
-        int pnc;
+        int kmc;
+        int kmc
         PageFactory.initElements(driver,this);
     }
 
