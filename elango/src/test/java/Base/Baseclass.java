@@ -15,7 +15,7 @@ public class Baseclass {
 	    public Baseclass(WebDriver driver) throws InterruptedException {
 	        this.driver = driver;
 	        wait =new WebDriverWait(driver, Duration.ofSeconds(5));
-		  
+	        getElement(element).click();
 	        int elango222222;
 	    }
 
